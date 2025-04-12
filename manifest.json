@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "0.1",
+
+  "name": "TweetIconBlind",
+  "description": "Blind the shitty tweet icon from your timeline.",
+
+  "permissions": ["scripting"],
+  "host_permissions": ["*://x.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
