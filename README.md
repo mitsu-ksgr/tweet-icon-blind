@@ -1,6 +1,8 @@
 Tweet Icon Blind
 ================
 
+fork from [tweet-blind](https://github.com/mitsu-ksgr/tweet-blind).
+
 Chrome extension.
 Change the shitty tweeter icon to the default icon.
 
